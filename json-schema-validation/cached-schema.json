@@ -1,0 +1,28 @@
+{
+  "$id": "http://example.com/schemas/user.json",
+  "type": "object",
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "properties": {
+    "name": {
+      "title": "Name",
+      "type": "string",
+      "description": "Users full name supporting unicode but no emojis.",
+      "maxLength": 20
+    },
+    "email": {
+      "title": "Email",
+      "description": "Like a postal address but for computers.",
+      "type": "string",
+      "format": "email"
+    },
+    "date_of_birth": {
+      "title": "Date Of Birth",
+      "type": "string",
+      "format": "date",
+      "descritpion": "Date of uses birth in the one and only date standard: ISO 8601.",
+      "example": "1990-12-28"
+    }
+  },
+  "required": ["name"]
+}

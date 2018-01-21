@@ -1,5 +1,5 @@
 {
   "dependencies": {
-    "djv": "^2.0.0"
+    "ajv": "6"
   }
 }
