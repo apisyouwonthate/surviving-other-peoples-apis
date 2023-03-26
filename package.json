@@ -1,0 +1,12 @@
+{
+  "name": "surviving-other-peoples-apis",
+  "version": "1.0.0",
+  "description": "Sample code for the book Surviving Other Peoples Web APIs",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
